@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animated Shorts Studio</title>
+<meta name="description" content="Home of four independent animated YouTube channels: Town Rules, Stickman Survives, AI Shortcut and Curious in 30.">
+<style>
+  :root { --bg:#f6f1e6; --ink:#1c1c22; --muted:#5b5b66; --card:#ffffff; --accent:#1f9d55; --line:#1c1c22; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16171c; --ink:#f1efe8; --muted:#a6a6b0; --card:#22232a; --accent:#3ad07a; --line:#f1efe8; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:2.1rem; line-height:1.2; margin:0 0 8px; }
+  .lead { color:var(--muted); margin:0 0 32px; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); }
+  .card { background:var(--card); border:2px solid var(--line); border-radius:14px; padding:18px; box-shadow:5px 5px 0 var(--line); }
+  .card h2 { font-size:1.1rem; margin:0 0 6px; }
+  .card p { margin:0; color:var(--muted); font-size:.95rem; }
+  section { margin-top:40px; }
+  h3 { font-size:1.2rem; margin:0 0 8px; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--muted); color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Animated Shorts Studio</h1>
+  <p class="lead">A small independent studio that writes, animates and publishes original short videos on four YouTube channels.</p>
+
+  <div class="grid">
+    <div class="card"><h2>Town Rules</h2><p>Short animated stories about towns with one strange rule.</p></div>
+    <div class="card"><h2>Stickman Survives</h2><p>Stickman survival stories told in parts, each ending on a cliffhanger.</p></div>
+    <div class="card"><h2>AI Shortcut</h2><p>Animated tips about AI tools and workflows. Independent, not affiliated with any AI company.</p></div>
+    <div class="card"><h2>Curious in 30</h2><p>Fact-checked "what if" and "how does it work" questions, answered in about 30 seconds.</p></div>
+  </div>
+
+  <section>
+    <h3>About our upload tool</h3>
+    <p>We use a small private tool, running only on our own computer, to upload our own finished videos to our own YouTube channels, schedule them, set thumbnails, and read basic statistics (views and watch time) for our own videos. The tool uses the YouTube Data API and the YouTube Analytics API with our own Google account. It is not offered to the public and does not access anyone else's channel or data.</p>
+    <p>Read the <a href="privacy.html">privacy policy</a> for details.</p>
+  </section>
+
+  <footer>
+    Contact: <a href="mailto:liamflygt@gmail.com">liamflygt@gmail.com</a> · <a href="privacy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
